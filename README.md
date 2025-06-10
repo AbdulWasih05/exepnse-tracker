@@ -8,18 +8,6 @@ A full-stack Expense Tracker application with a sleek, minimalist, high-tech UI 
 
 ---
 
-## 📦 Project Structure
-
-expense-tracker/
-├── backend/ # Express API (CRUD for expenses)
-├── frontend/ # React app with Tailwind CSS
-├── db/ # MySQL Docker volume
-└── docker-compose.yml
-
-
-
----
-
 ## 🚀 Quick Start
 
 ### 1️⃣ Clone the repo
