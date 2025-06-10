@@ -1,10 +1,71 @@
-# Expense Tracker
+# 💸 Expense Tracker App
 
-## Run Project
+A full-stack Expense Tracker application with a sleek, minimalist, high-tech UI built using:
+
+- **Frontend:** React + Vite + Tailwind CSS
+- **Backend:** Node.js + Express
+- **Database:** MySQL (via Docker)
+
+---
+
+## 📦 Project Structure
+
+expense-tracker/
+├── backend/ # Express API (CRUD for expenses)
+├── frontend/ # React app with Tailwind CSS
+├── db/ # MySQL Docker volume
+└── docker-compose.yml
+
+
+
+---
+
+## 🚀 Quick Start
+
+### 1️⃣ Clone the repo
 
 ```bash
-docker-compose up --build
-```
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
 
-Frontend: http://localhost:3000  
-Backend API: http://localhost:5000/api/expenses
+
+🧪 Dev Commands
+
+Run Frontend (Vite Dev Server)
+bash
+
+cd frontend
+npm install
+npm run dev
+
+
+Run Backend
+
+cd backend
+npm install
+npm start
+
+
+
+💡 Tech Stack
+React + Vite + Tailwind CSS
+
+Node.js + Express
+
+MySQL
+
+Axios
+
+Docker + Docker Compose
+
+
+✅ Features
+Add, view, edit, and delete expenses
+
+Filter by category and date
+
+Holographic, animated UI
+
+API and DB containerized using Docker
+
+Built by Abdul Wasih
